@@ -1,0 +1,18 @@
+Develop a Hospital Management System in Java. Your system will contain the following classes
+Date(day,month,year)
+Time(hours,mins,am/pm)
+Doctor(name, cnic, phone_no, gender, department, specialization)
+Patient(name, cnic, address, phone_no, gender,age)
+ Indoor Patient[inherited from Patient](wardno, Roomno, bedno ,doctor(composition), date of admission(composition), fee)
+ Outdoor Patient[ inherited from Patient](date of appointment, time of appointment, doctor(all compositions),fee)
+
+Add constructors, getters, setters and other methods wherever needed. Keep all the data members private. Use JOptionPane for input and output. Create two packages in your project. The first package will contain general classes like Date and Time and the second package named hospital will contain the rest of the classes.
+Your demo class will be in hospital package. It will initialize an array of Doctors and an array of references of type Patient. It will show a menu to the user giving the options
+1-	Add an indoor patient
+2-	Add an outdoor patient
+3-	See the list of all Doctors
+4-	Search a doctor by name or department
+5-	See the list of all indoor patients
+6-	See the list of all appointments on a certain day
+7-	See the list of appointments of a certain doctor
+8-	Change the date or time of appointment of a certain patient.
