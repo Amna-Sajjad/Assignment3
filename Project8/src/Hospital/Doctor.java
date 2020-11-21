@@ -40,7 +40,7 @@ public class Doctor {
 		return gender;
 	}
 	public String toString() {
-		return "Doctor "+name+" ( "+gender+" ) have specialization in "+specialization;
+		return "Doctor "+name+" ( "+gender+" ) has done specialization in "+specialization;
 	}
 
 }
