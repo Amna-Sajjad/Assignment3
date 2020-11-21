@@ -12,14 +12,6 @@ public class Doctor {
 		this.phone=phone;
 		this.gender=gender;
 	}
-	public Doctor(Doctor doctor) {
-		this.name=doctor.name;
-		this.department=doctor.department;
-		this.specialization=doctor.specialization;
-		this.cnic=doctor.cnic;
-		this.phone=doctor.phone;
-		this.gender=doctor.gender;
-	}
 	void setDepartment(String department) {
 		this.department=department;
 	}
@@ -48,7 +40,7 @@ public class Doctor {
 		return gender;
 	}
 	public String toString() {
-		return "Doctor "+name+" ( "+gender+" ) "+specialization+" in "+department;
+		return "Doctor "+name+" ( "+gender+" ) have specialization in "+specialization;
 	}
 
 }
