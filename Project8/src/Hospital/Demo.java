@@ -67,13 +67,13 @@ public class Demo {
 						temp=JOptionPane.showInputDialog("Enter Ptient Age: ");
 						pAge=Integer.parseInt(temp);
 						pAdd=JOptionPane.showInputDialog("Enter Patient Address:");
-						temp=JOptionPane.showInputDialog("Enter Ptient Ward no: ");
+						temp=JOptionPane.showInputDialog("Enter Patient Ward no: ");
 						wNo=Integer.parseInt(temp);
-						temp=JOptionPane.showInputDialog("Enter Ptient Room no: ");
+						temp=JOptionPane.showInputDialog("Enter Patient Room no: ");
 						rNo=Integer.parseInt(temp);
-						temp=JOptionPane.showInputDialog("Enter Ptient Bed no: ");
+						temp=JOptionPane.showInputDialog("Enter Patient Bed no: ");
 						bNo=Integer.parseInt(temp);
-						temp=JOptionPane.showInputDialog("Enter Ptient Fee: ");
+						temp=JOptionPane.showInputDialog("Enter Patient Fee: ");
 						fee=Integer.parseInt(temp);
 						date=JOptionPane.showInputDialog("Enter date (dd/mm/yy)");
 						dName=JOptionPane.showInputDialog("Enter Doctor Name: ");
